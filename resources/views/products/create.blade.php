@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title','Products')
+@section('title','create product')
 @section('content')
     <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
         <div class="row">
@@ -23,22 +23,14 @@
                                     <label>Add Product name</label>
                                     <input type="text" class="form-control" placeholder="Enter product name">
                                 </div>
-
-                            </div>
-
-                        </div>
-                        <div class="kt-portlet__body">
-                            <div class="form-group row">
                                 <div class="col-lg-6">
                                     <label>Add Product color</label>
                                     <input type="text" class="form-control" placeholder="Enter product color">
                                 </div>
 
                             </div>
-
-                        </div>
-                        <div class="kt-portlet__body">
                             <div class="form-group row">
+
                                 <div class="col-lg-6">
                                     <label>Add Product category</label>
                                     <input type="text" class="form-control" placeholder="Enter product category">
@@ -47,11 +39,15 @@
                             </div>
 
                         </div>
+
+
+
+                        </div>
                         <div class="kt-portlet__foot">
                             <div class="kt-form__actions">
                                 <div class="row">
                                     <div class="col-lg-12 text-right">
-                                        <button type="reset" class="btn btn-primary">Save</button>
+                                        <a href="/products" class="btn btn-primary">Save</a>
                                         <button type="reset" class="btn btn-secondary">Cancel</button>
                                     </div>
 
@@ -67,4 +63,4 @@
     </div>
 
 @endsection
-<?php
+
