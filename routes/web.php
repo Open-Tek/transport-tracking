@@ -14,6 +14,13 @@
 Route::get('/', function () {
     return view('admin.index');
 });
+Route::get('/warehouse', function () {
+    return view('warehouse.index');
+});
+Route::get('/warehouse/create', function () {
+    return view('warehouse.create');
+});
+
 
 Auth::routes();
 

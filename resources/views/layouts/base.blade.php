@@ -44,29 +44,20 @@ License: You must have a valid license purchased only from themeforest(the above
     <link rel="shortcut icon" href="{{ asset('assets/media/logos/favicon.ico') }}" />
 </head>
 <body class="kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-subheader--fixed kt-subheader--enabled kt-subheader--solid kt-aside--enabled kt-aside--fixed kt-page--loading">
-@include('admin.includes.mobile-header')
+@include('includes.mobile-header')
 <div class="kt-grid kt-grid--hor kt-grid--root">
     <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-page">
-        @include('admin.includes.side-bar')
+        @include('includes.side-bar')
         <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-wrapper" id="kt_wrapper">
-        @include('admin.includes.header')
-            <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
-            <div class="row">
-                <div class="col-lg-6 col-xl-4 order-lg-1 order-xl-1">
-                    @include('admin.includes.widget-trends')
-                </div>
-                <div class="col-lg-6 col-xl-4 order-lg-1 order-xl-1">
-                        @include('admin.includes.widget-sales')
-                </div>
-                <div class="col-lg-6 col-xl-4 order-lg-1 order-xl-1">
-                        @include('admin.includes.widget-top-locations')
-                </div>
-            </div>
-            </div>
+        @include('includes.header')
+
+
+                @yield('content')
+
         </div>
 
     </div>
-    @include('admin.includes.footer')
+    @include('includes.footer')
 </div>
 
 
