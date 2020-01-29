@@ -1,7 +1,7 @@
 @extends('layouts.base')
 @section('title','Dispatchments')
 @section('content')
-    {{ Session::put('key','0')}}
+    {{ Session::put('key','2')}}
     <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
         <div class="kt-portlet kt-portlet--mobile">
             <div class="kt-portlet__head kt-portlet__head--lg">
@@ -38,11 +38,14 @@
                         <td>Mumbai Warehouse</td>
                         <td>Nagpur Warehouse</td>
 
-                        @if(Session::get('key') == 0)
+                        @if(Session::get('key') == 1)
                             <td ><span class="badge badge-warning">In transit </span></td>
                         @endif
-                        @if(Session::get('key') == 1)
+                        @if(Session::get('key') == 2)
                             <td ><span class="badge badge-success">Reached </span></td>
+                        @endif
+                        @if(Session::get('key') == 0)
+                            <td ></td>
                         @endif
 
                         <td >MH 04 GX 1920</td>
