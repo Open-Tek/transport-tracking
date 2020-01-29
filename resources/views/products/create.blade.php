@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title','Products')
+@section('title','create product')
 @section('content')
     <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
         <div class="row">
@@ -33,11 +33,12 @@
                         </div>
 
 
+
                         <div class="kt-portlet__foot">
                             <div class="kt-form__actions">
                                 <div class="row">
                                     <div class="col-lg-12 text-right">
-                                        <button type="reset" class="btn btn-primary">Save</button>
+                                        <a href="/products" class="btn btn-primary">Save</a>
                                         <button type="reset" class="btn btn-secondary">Cancel</button>
                                     </div>
 
@@ -53,3 +54,4 @@
     </div>
 
 @endsection
+
