@@ -20,6 +20,18 @@ Route::get('/warehouse', function () {
 Route::get('/warehouse/create', function () {
     return view('warehouse.create');
 });
+Route::get('/products', function () {
+    return view('products.index');
+});
+Route::get('/products/create', function () {
+    return view('products.create');
+});
+Route::get('/staff', function () {
+    return view('staff.index');
+});
+Route::get('/staff/create', function () {
+    return view('staff.create');
+});
 
 
 Auth::routes();
