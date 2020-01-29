@@ -17,6 +17,9 @@ Route::get('/', function () {
 Route::get('/warehouse', function () {
     return view('warehouse.index');
 });
+Route::get('/user', function () {
+    return view('user.index');
+});
 Route::get('/warehouse/create', function () {
     return view('warehouse.create');
 });
