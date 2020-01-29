@@ -29,20 +29,11 @@
                                 </div>
 
                             </div>
-                            <div class="form-group row">
-
-                                <div class="col-lg-6">
-                                    <label>Add Product category</label>
-                                    <input type="text" class="form-control" placeholder="Enter product category">
-                                </div>
-
-                            </div>
 
                         </div>
 
 
 
-                        </div>
                         <div class="kt-portlet__foot">
                             <div class="kt-form__actions">
                                 <div class="row">
