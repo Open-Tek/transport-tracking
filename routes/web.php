@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('admin.index');
+    return view('auth.login');
 });
 Route::get('/warehouse', function () {
     return view('warehouse.index');
@@ -42,6 +42,14 @@ Route::get('/inventory/create', function () {
 
 Route::get('/user/create', function () {
     return view('user.create');
+});
+
+Route::get('/admin', function () {
+    return view('admin.index');
+});
+
+Route::get('/dispatchments', function () {
+    return view('dispatchments.index');
 });
 
 

@@ -22,7 +22,12 @@
 </script>
 
 <!-- end::Global Config -->
+
 <script src="{{ asset('assets/plugins/global/plugins.bundle.js') }}"></script>
 <script src="{{ asset('assets/js/scripts.bundle.js') }}"></script>
+
+    <!--begin::Page Scripts(used by this page) -->
+
+
 <script src="{{ asset('assets/js/pages/dashboard.js') }}" type="text/javascript"></script>
 @yield('custom-scripts')
