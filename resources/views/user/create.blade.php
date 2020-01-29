@@ -1,5 +1,5 @@
 @extends('layouts.base')
-@section('title','Add warehouse')
+@section('title','Add User ')
 @section('content')
     <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
         <div class="row">
@@ -10,7 +10,7 @@
                     <div class="kt-portlet__head">
                         <div class="kt-portlet__head-label">
                             <h3 class="kt-portlet__head-title">
-                                Add Warehouse
+                                Add User
                             </h3>
                         </div>
                     </div>
@@ -20,11 +20,28 @@
                         <div class="kt-portlet__body">
                             <div class="form-group row">
                                 <div class="col-lg-6">
-                                    <label>Add Warehouse name</label>
-                                    <input type="email" class="form-control" placeholder="Enter warehouse name">
+                                    <label>Name</label>
+                                    <input type="name" class="form-control" placeholder="Enter name">
                                 </div>
-
+                                <div class="col-lg-6">
+                                    <label>Email</label>
+                                    <input type="email" class="form-control" placeholder="Enter user email">
+                                </div>
                             </div>
+                            <div class="form-group row">
+                            <div class="col-lg-6">
+                                <label>Phone number</label>
+                                <input type="text" class="form-control" placeholder="Enter phone">
+                            </div>
+                            <div class="col-lg-6">
+                                <label>Role</label>
+                                <select class="form-control kt-select2" id="kt_select2_1" name="param">
+                                    <option value="admin">admin</option>
+                                    <option value="staff">staff</option>
+                                </select>
+                            </div>
+
+                        </div>
 
                         </div>
                         <div class="kt-portlet__foot">
@@ -47,3 +64,7 @@
     </div>
 
 @endsection
+@section('custom-scripts')
+    <script src="{{ asset('assets/js/pages/crud/forms/widgets/select2.js') }}" type="text/javascript"></script>
+@endsection
+

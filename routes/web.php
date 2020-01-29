@@ -21,6 +21,14 @@ Route::get('/warehouse/create', function () {
     return view('warehouse.create');
 });
 
+Route::get('/inventory/create', function () {
+    return view('inventory.create');
+});
+
+Route::get('/user/create', function () {
+    return view('user.create');
+});
+
 
 Auth::routes();
 
