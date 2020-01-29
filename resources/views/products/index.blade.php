@@ -4,7 +4,7 @@
 
 
 @endsection
-<?php
+
 <div class="kt-portlet__body">
 
 										<!--begin: Datatable -->
