@@ -48,7 +48,7 @@
                             <div class="kt-form__actions">
                                 <div class="row">
                                     <div class="col-lg-12 text-right">
-                                        <button type="reset" class="btn btn-primary">Save</button>
+                                        <a href="/user" class="btn btn-primary">Save</a>
                                         <button type="reset" class="btn btn-secondary">Cancel</button>
                                     </div>
 
