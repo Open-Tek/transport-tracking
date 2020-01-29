@@ -23,30 +23,26 @@
                                     <label>Add Staff Id</label>
                                     <input type="text" class="form-control" placeholder="Enter staff id">
                                 </div>
+                                <div class="col-lg-6">
+                                    <label for="godownid">Select Godown Id</label>
+                                    <select class="form-control" id="godownid">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
 
                             </div>
 
                         </div>
-                        <div class="kt-portlet__body">
 
-                        <div class="form-group row">
-                            <div class="col-lg-6">
-                            <label for="godownid">Select Godown Id</label>
-                            <select class="form-control" id="godownid">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                        </div>
-                        </div>
-                        </div>
                         <div class="kt-portlet__foot">
                             <div class="kt-form__actions">
                                 <div class="row">
                                     <div class="col-lg-12 text-right">
-                                        <button type="reset" class="btn btn-primary">Save</button>
+                                        <a href="/staff" class="btn btn-primary">Save</a>
                                         <button type="reset" class="btn btn-secondary">Cancel</button>
                                     </div>
 
