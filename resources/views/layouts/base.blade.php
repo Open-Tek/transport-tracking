@@ -42,6 +42,8 @@ License: You must have a valid license purchased only from themeforest(the above
 
     <!--end::Layout Skins -->
     <link rel="shortcut icon" href="{{ asset('assets/media/logos/favicon.ico') }}" />
+    @include('includes.footer')
+    @yield('map-scripts')
 </head>
 <body class="kt-quick-panel--right kt-demo-panel--right kt-offcanvas-panel--right kt-header--fixed kt-header-mobile--fixed kt-subheader--fixed kt-subheader--enabled kt-subheader--solid kt-aside--enabled kt-aside--fixed kt-page--loading">
 @include('includes.mobile-header')
@@ -57,7 +59,7 @@ License: You must have a valid license purchased only from themeforest(the above
         </div>
 
     </div>
-    @include('includes.footer')
+
 </div>
 
 

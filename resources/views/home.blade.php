@@ -1,6 +1,9 @@
 
 @extends('layouts.base')
 @section('title','dashboard')
+@section('map-scripts')
+<script src="{{ asset('assets/js/pages/components/charts/morris-charts.js') }}" type="text/javascript"></script>
+@endsection
 
 @section('content')
     {{--<div class="container">--}}
@@ -271,8 +274,84 @@
         </div>
     </div>
     </div>
-@endsection
-@section('custom-scripts')
+    <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+    <div class="row no-gutters">
+        <div class="col-lg-6">
 
-    <script src="{{ asset('assets/js/pages/components/charts/morris-charts.js') }}" type="text/javascript"></script>
+                <div class="kt-portlet kt-portlet--mobile">
+                    <!--begin::Portlet-->
+                    <div id="donut"></div>
+
+                    <script type="text/javascript">
+                        Morris.Donut({
+                            element: 'donut',
+                            data: [
+                                { label: "loss", value: 5 },
+                                { label: "Profits", value: 95 },
+
+                            ],
+                            colors: ['#2abe81', '#24a5ff']
+                        });
+                    </script>
+                </div>
+
+        </div>
+
+        <div class="col-lg-6">
+            <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+                <div class="kt-portlet kt-portlet--mobile">
+            <!--begin::Portlet-->
+            <div id="kt_morris_3"></div>
+
+            <script type="text/javascript">
+                Morris.Bar({
+                    element: 'kt_morris_3',
+                    data: [{
+                        y: '2014',
+                        a: 100,
+                        b: 15
+                    },
+                        {
+                            y: '2015',
+                            a: 75,
+                            b: 10
+                        },
+                        {
+                            y: '2016',
+                            a: 50,
+                            b: 5
+                        },
+                        {
+                            y: '2017',
+                            a: 75,
+                            b: 7
+                        },
+                        {
+                            y: '2018',
+                            a: 50,
+                            b: 20
+                        },
+                        {
+                            y: '2019',
+                            a: 75,
+                            b: 5
+                        }
+                    ],
+                    xkey: 'y',
+                    ykeys: ['a', 'b'],
+                    labels: ['Profits', 'Loss'],
+                    barColors: ['#2abe81', '#24a5ff']
+                });
+            </script>
+                </div>
+            </div>
+
+        </div>
+
+            <!--end::Portlet-->
+        </div>
+    </div>
+
+
 @endsection
+
