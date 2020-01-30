@@ -85,7 +85,7 @@
                     <tr>
                         <td>1</td>
 
-                        <td>China</td>
+                        <td>Nagpur warehouse</td>
                         <td> <button class="fa fa-eye btn btn-primary"></button></td>
                         <td ><button class="fa fa-edit btn btn-success"></button></td>
                         <td ><button class=" btn btn-danger fa fa-times"></button></td>
@@ -95,7 +95,7 @@
                     <tr>
                         <td>2</td>
 
-                        <td>Indonesia</td>
+                        <td>Mumbai Warehouse</td>
                         <td> <button class="fa fa-eye btn btn-primary"></button></td>
                         <td ><button class="fa fa-edit btn btn-success"></button></td>
                         <td ><button class="fa fa-trash-restore btn btn-danger"></button></td>

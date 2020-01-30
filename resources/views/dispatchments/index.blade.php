@@ -23,6 +23,7 @@
                     <tr>
                         <th>Date</th>
                         <th>Source</th>
+                        <th>Location</th>
                         <th>Destinations</th>
                         <th>Status</th>
                         <th>Transport</th>
@@ -33,17 +34,19 @@
                         <tr>
                             <td>29 JAN 2020</td>
                             <td>Mumbai Warehouse</td>
+                            <td>K.J Somaiya College of Engineering</td>
                             <td>Nagpur Warehouse</td>
                             <td ><span class="badge badge-warning">In transit </span></td>
-                            <td >MH 04 GX 1920</td>
+                            <td>RF 35 644</td>
                         </tr>
                     @elseif(Session::get('key') >= 2)
                         <tr>
                             <td>29 JAN 2020</td>
                             <td>Mumbai Warehouse</td>
+                            <td>K.J Somaiya College of Engineering</td>
                             <td>Nagpur Warehouse</td>
                             <td ><span class="badge badge-success">Reached </span></td>
-                            <td >MH 04 GX 1920</td>
+                            <td>RF 35 644</td>
                         </tr>
                     @else
                         <tr>
