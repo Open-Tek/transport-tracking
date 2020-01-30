@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('auth.login');
-});
+Route::redirect('/', '/home');
 Route::get('/warehouse', function () {
     return view('warehouse.index');
 });

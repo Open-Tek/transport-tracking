@@ -6,7 +6,7 @@
     <div class="kt-header-menu-wrapper" id="kt_header_menu_wrapper">
         <div id="kt_header_menu" class="kt-header-menu kt-header-menu-mobile  kt-header-menu--layout-tab ">
             <ul class="kt-menu__nav ">
-                <li class="kt-menu__item  kt-menu__item--active " aria-haspopup="true"><a href="index.html" class="kt-menu__link "><span class="kt-menu__link-text">Dashboard</span></a></li>
+                <li class="kt-menu__item  kt-menu__item--active " aria-haspopup="true"><a href="/home" class="kt-menu__link "><span class="kt-menu__link-text">Dashboard</span></a></li>
 
             </ul>
         </div>
