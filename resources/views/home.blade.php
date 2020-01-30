@@ -290,7 +290,7 @@
                                 { label: "Profits", value: 95 },
 
                             ],
-                            colors: ['#2abe81', '#24a5ff']
+                            colors: ['#24a5ff','#2abe81']
                         });
                     </script>
                 </div>

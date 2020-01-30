@@ -14,7 +14,9 @@
             <div class="kt-widget15__chart">
                 <canvas id="kt_chart_sales_stats" style="height:160px;"></canvas>
             </div>
-/
+            <div class="mt-5">
+                Transportation have gained boom over the years and the sales have increased due to which the manual losses incurred have been traced down effectively.
+            </div>
         </div>
 
         <!--end::Widget 6-->
