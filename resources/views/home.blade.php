@@ -190,6 +190,7 @@
                             <tr>
                                 <th>Truck no.</th>
                                 <th>Godown source</th>
+                                <th>Location</th>
                                 <th>Godown destination</th>
                                 <th>Product</th>
                                 <th>Count</th>
@@ -200,60 +201,17 @@
                             <tr>
 
 
-                                <td>MH 06 AT 7852</td>
-                                <td>3</td>
-                                <td>4</td>
-                                <td >Blue Thread</td>
-                                <td> 5</td>
-
-
-
-                            </tr>
-                            <tr>
-                                <td>MH 12 YP 7122</td>
+                                <td>RF 35 644</td>
                                 <td>1</td>
+                                <td> Vidyanagar,<br> Vidya Vihar East, <br>Ghatkopar East,<br> Mumbai, <br>Maharashtra 400077</td>
                                 <td>2</td>
-                                <td >Kacha Dhaga</td>
-                                <td>7</td>
+                                <td >Red Thread</td>
+                                <td>1</td>
 
-
-                            </tr>
-                            <tr>
-                                <td>MH 12 GP 7122</td>
-                                <td>4</td>
-                                <td>6</td>
-                                <td>Jute sack</td>
-                                <td>8</td>
 
 
                             </tr>
-                            <tr>
-                                <td>MH 12 IJ 7122</td>
-                                <td>4</td>
-                                <td>6</td>
-                                <td>Pakka dhaga</td>
-                                <td>5</td>
 
-
-                            </tr>
-                            <tr>
-                                <td>MH 12 YP 7122</td>
-                                <td>4</td>
-                                <td>6</td>
-                                <td>Jute Bag</td>
-                                <td>5</td>
-
-
-                            </tr>
-                            <tr>
-                                <td>MH 12 YP 7122</td>
-                                <td>4</td>
-                                <td>6</td>
-                                <td>Jute sack</td>
-                                <td>4</td>
-
-
-                            </tr>
 
                             </tbody>
                         </table>

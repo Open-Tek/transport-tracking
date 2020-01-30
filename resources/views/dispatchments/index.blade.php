@@ -34,7 +34,7 @@
                         <tr>
                             <td>29 JAN 2020</td>
                             <td>Mumbai Warehouse</td>
-                            <td>K.J Somaiya College of Engineering</td>
+                            <td> Vidyanagar,<br> Vidya Vihar East, <br>Ghatkopar East,<br> Mumbai, <br>Maharashtra 400077</td>
                             <td>Nagpur Warehouse</td>
                             <td ><span class="badge badge-warning">In transit </span></td>
                             <td>RF 35 644</td>
@@ -43,7 +43,7 @@
                         <tr>
                             <td>29 JAN 2020</td>
                             <td>Mumbai Warehouse</td>
-                            <td>K.J Somaiya College of Engineering</td>
+                            <td> Vidyanagar,<br> Vidya Vihar East, <br>Ghatkopar East,<br> Mumbai, <br>Maharashtra 400077</td>
                             <td>Nagpur Warehouse</td>
                             <td ><span class="badge badge-success">Reached </span></td>
                             <td>RF 35 644</td>
