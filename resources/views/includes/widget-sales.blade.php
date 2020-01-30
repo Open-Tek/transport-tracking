@@ -14,7 +14,7 @@
             <div class="kt-widget15__chart">
                 <canvas id="kt_chart_sales_stats" style="height:160px;"></canvas>
             </div>
-
+/
         </div>
 
         <!--end::Widget 6-->
